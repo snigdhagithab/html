@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="#">
+      <h1 class="form using different tags"></h1>
+      <!--Name-->
+      <label for="Name">Name:</label><br />
+      <input type="text" id="Name" />
+      <!--email and password-->
+      <fieldset>
+        <legend>contact detail</legend>
+        <label for="Email">Email Address:</label><br />
+        <input type="email" class="detail" size="20" id="Email" /><br />
+        <label for="password">Password:</label><br />
+        <input type="password" class="detail" size="20" id="Password" />
+      </fieldset>
+      <!--checkbox-->
+      <lebel for="favSubject">What is your favourite subject?</lebel>
+      <p><input type="checkbox" value="Itune" class="favourite" />Itune</p>
+      <p><input type="checkbox" value="spotify" class="favourite" />spotify</p>
+      <p><input type="checkbox" value="Last.fm" class="favourite" />Last.fm</p>
+      <!--radio-->
+      <label for="favCricket"
+        >Which team did you support in ICC World cup?</label
+      >
+      <p><input type="radio" name="world-cup" />Bangladesh</p>
+      <p><input type="radio" name="world-cup" />India</p>
+      <p><input type="radio" name="world-cup" />Srilanka</p>
+      <p><input type="radio" name="world-cup" />Netherlend</p>
+      <p><input type="radio" name="world-cup" />South Africa</p>
+      <p><input type="radio" name="world-cup" />Australia</p>
+      <p><input type="radio" name="world-cup" />Newzealand</p>
+      <p><input type="radio" name="world-cup" />Afganistan</p>
+      <!--select-->
+      <p>Select Your city:</p>
+      <br />
+      <select name="city" id="city">
+        <option value="city" selected disabled>--selected--</option>
+        <option value="city">Dhaka</option>
+        <option value="city">Chittagonj</option>
+        <option value="city">Khulna</option>
+        <option value="city">Bogura</option>
+      </select>
+      <!--File input-->
+      <p>Enter the required file:</p>
+      <input type="file" id="file" /><br />
+      <!--color-->
+      <label for="dress-color">What should be the color of your dress:</label>
+      <input type="color" />
+      <p>class test mark(between 0 to 100):</p>
+      <input type="range" min="0" max="100" /><br />
+      <!--Submit-->
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
